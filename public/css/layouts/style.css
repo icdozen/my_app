@@ -1,0 +1,10 @@
+.is-center {
+  text-align: center;
+}
+
+.more-rounded {
+  border:5px solid #;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+}
