@@ -10,71 +10,14 @@
 }
 
 /*this is for the hovering of the recent projects */
-.hover {
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s;
+.myButtonLink {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('http://i.imgur.com/oEoLVmo.png') bottom;
+  text-indent: -99999px;
 }
 
-.hover:hover, .project:hover a {
-    opacity: 1;
-}
-
-.project:hover a + .hover {
-    opacity: 1;
-}
-
-.project a {
-    background-color: white;
-    display: block;
-    /*font-family: 'Raleway', serif;*/
-    color: #434343;
-    border: none;
-    position: absolute;
-    bottom: 50%;
-    left: 30%;
-    width: 40%;
-    margin: 0 auto;
-    opacity: 0;
-    transition: opacity 0.5s;
-    z-index: 5;
-    text-decoration: none;
-}
-
-.project a:hover {
-    background-color: #aa1e22;
-    color: white;
-    transition: background-color 0.2s;
-    transition: color 0.2s;
-}
-
-/*h3 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 24px;
-}*/
-
-.btn {
-    background: #fffff;
-    font-size: 0.6rem;
-    padding: 1rem 0;
-    margin: 20px 0 75px 0;
-    text-decoration: none;
-    position: relative;
-    float: right;
-}
-
-.btn:hover {
-    background: #A81F26;
-    background-image: -webkit-linear-gradient(top, #A81F26, #8f1b25);
-    background-image: -moz-linear-gradient(top, #A81F26, #8f1b25);
-    background-image: -ms-linear-gradient(top, #A81F26, #8f1b25);
-    background-image: -o-linear-gradient(top, #A81F26, #8f1b25);
-    background-image: linear-gradient(to bottom, #A81F26, #8f1b25);
-    text-decoration: none;
-    color: white;
-    
-}
-
-op: 100px; left: 0; bottom: 0; right: 0;
+.myButtonLink:hover {
+  background-position: 0 0;
 }
