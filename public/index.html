@@ -13,6 +13,15 @@
 <link rel="stylesheet" href="css/layouts/style.css">
 <link rel="stylesheet" href="css/layouts/marketing.css">
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
+    });
+});
+</script>
 
 
 </head>
@@ -24,9 +33,9 @@
         <a class="pure-menu-heading" href="">IC</a>
 
         <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Recent Projects</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact Me</a></li>
+            <li class="pure-menu-item"><a href="#recent_projects" class="pure-menu-link scroll">Recent Projects</a></li>
+            <li class="pure-menu-item"><a href="#about_me" class="pure-menu-link scroll">About Me</a></li>
+            <li class="pure-menu-item"><a href="#contact_me" class="pure-menu-link scroll">Contact Me</a></li>
         </ul>
     </div>
 </div>
@@ -44,7 +53,7 @@
 </div>
 
 <div class="content-wrapper">
-    <div class="content">
+    <div class="content" id="recent_projects">
         <h2 class="content-head is-center">Recent Projects</h2>
 
         <div class="pure-g">
@@ -96,7 +105,7 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g">
+    <div class="ribbon l-box-lrg pure-g"  id="about_me">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
             <img class="pure-img-responsive" alt="File Icons" width="200" src="http://i.imgur.com/MMokcx5.jpg">
         </div>
@@ -136,8 +145,8 @@
                 </form>
             </div>
 
-            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                <h4>Contact Us</h4>
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5" id="contact_me">
+                <h4>Contact Ms</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
