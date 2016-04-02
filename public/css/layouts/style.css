@@ -11,7 +11,7 @@
 
 
 .skills > img {
-    height: 75px;
+    height: 65px;
     margin: 1.5rem 0.75rem 0 0.75rem;
 }
 
@@ -22,14 +22,14 @@
 
 
 /*this is for the hovering of the recent projects */
-.myButtonLink {
-  display: block;
-  width: 100px;
-  height: 100px;
-  background: url('http://i.imgur.com/oEoLVmo.png') bottom;
-  text-indent: -99999px;
+.image-swap {
+   width: 200px;
+   height: 200px;
+   background-image: url("http://i.imgur.com/eZDnq6L.png");
+   background-position: 0 0;
 }
-
-.myButtonLink:hover {
-  background-position: 0 0;
+ 
+.image-swap:hover {
+  background-image: url("http://i.imgur.com/ncBgmxg.png");
+background-position: 0 100%;
 }
