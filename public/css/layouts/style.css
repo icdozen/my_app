@@ -15,6 +15,12 @@
     margin: 1.5rem 0.75rem 0 0.75rem;
 }
 
+.contacts > img {
+    height: 75px;
+    margin: 1.5rem 0.75rem 0 0.75rem;
+}
+
+
 /*this is for the hovering of the recent projects */
 .myButtonLink {
   display: block;
