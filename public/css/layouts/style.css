@@ -45,11 +45,11 @@ background-position: 0 100%;
 }
 
 .project img {
-    border-radius: 100%;
-    overflow: hidden;
+/*    border-radius: 100%;
+*/    overflow: hidden;
     margin: 0 auto;
-    width: 90%;
-}
+/*    width: 90%;
+*/}
 
 .hover {
     position: absolute;
@@ -68,7 +68,7 @@ background-position: 0 100%;
 .project a {
     background-color: white;
     display: block;
-    font-family: "adelle";
+font-family: 'Didact Gothic', sans-serif;
     color: #434343;
     border: none;
     position: absolute;
