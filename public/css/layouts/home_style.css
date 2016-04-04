@@ -1,0 +1,235 @@
+{
+  font-family: 'Montserrat', sans-serif !important;
+}
+html {
+  background-image: url('http://i.imgur.com/yuYF2Ml.jpg');
+  background-size: 100%;
+  background-repeat: repeat;
+  
+}
+h1 {
+  font-weight: 600;
+  font-size: 3.25rem;
+  line-height: 1.2;
+  color: white;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem
+}
+h2 {
+  font-weight: 600;
+  font-size: 2.625rem;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem
+}
+h3 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem
+}
+h4 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem
+}
+h5 {
+  font-weight: 600;
+  font-size: .6875rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: .07rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem
+}
+h6 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem
+}
+p {
+  margin-top: 1.00rem;
+  margin-bottom: 1.00rem
+}
+blockquote {
+  font-weight: 300;
+  font-size: 1.375rem;
+  line-height: 1.7;
+  letter-spacing: -0.03rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 2.5rem
+}
+a {
+  color: inherit
+}
+a:hover {
+  opacity: .8
+}
+
+.top-1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.is-center {
+  text-align: center;
+}
+.content-name {
+    font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600;
+  font-size: 2.8em;
+  line-height: 1.45em;
+  text-align: center;
+  letter-spacing: .3em;
+  color: #ffce00;
+}
+.content-1 {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px
+}
+
+.my-description {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+}
+.my-description-detail {
+  font-weight: 300;
+  font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif !important;
+
+  line-height: 1.4;
+  letter-spacing: .01em;
+  color: white
+}
+.q-paragraph {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+    font-family: 'Montserrat', sans-serif !important;
+
+  padding-top: 50px;
+  padding-right: 0;
+  padding-bottom: 50px;
+  padding-left: 0;
+  max-width: 100%
+
+}
+.q-paragraph-grey {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1em;
+  line-height: 1.4;
+  letter-spacing: .01em;
+  color: white
+}
+.white_button {
+  font-size: 1.0em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: white;
+  background-color: rgba(153, 153, 153, 0.58);
+  border-radius: 4px
+}
+.button_att {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px
+}
+.2_columns {
+  width: 90%;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 450px
+}
+.grid {
+  float: left
+}
+.2nd_button {
+  font-size: 1.0em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: white;
+  background-color: #5e5ff1;
+  border-radius: 4px
+}
+.button_go {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px
+}
+
+
+
+
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width:480px) {
+  .fr_h4_black {
+    font-size: 1.3em
+  }
+  .fr_hd2_2_columns.fr-grid>.fr-widget {
+    float: left
+  }
+  .fr_hd2_2_columns>.fr-widget:nth-child(1n+1) {
+    margin-top: .6em;
+    margin-right: 0;
+    margin-bottom: .6em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit
+  }
+}
+.fr_hd2_button_buy {
+  transition-property: color, background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out
+}
+.fr_hd2_button_buy:hover {
+  color: black;
+  background-color: white;
+  transition-duration: .125s
+}
+.fr_hd2_button_try {
+  transition-property: color, background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out
+}
+.fr_hd2_button_try:hover {
+  color: black;
+  background-color: white;
+  transition-duration: .125s
+}

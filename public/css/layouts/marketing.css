@@ -136,8 +136,9 @@ a.pure-button-primary {
 .splash-container {
 /*    background: #1f8dd6;
 */   
-    background-image: url('http://i.imgur.com/Oq7atHq.jpg');
+    background-image: url('http://i.imgur.com/ugtOYfT.jpg');
     background-size: 100%;
+    background-repeat: repeat;
 
     z-index: 1;
     overflow: hidden;
