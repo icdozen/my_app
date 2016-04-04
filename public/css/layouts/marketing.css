@@ -132,7 +132,10 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+/*    background: #1f8dd6;
+*/   
+    background-image: url('http://i.imgur.com/Oq7atHq.jpg');
+    background-size: 100%;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -164,14 +167,16 @@ a.pure-button-primary {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: white;
     font-size: 1.35em;
-    letter-spacing: 1.00em;
+    letter-spacing: 0.60em;
     opacity: 0.8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -185,7 +190,7 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: white;
+    background: #f4f4f4;
 
 }
 
@@ -195,6 +200,7 @@ a.pure-button-primary {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -205,6 +211,7 @@ a.pure-button-primary {
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
     color: #1f8dd6;
+    font-family: 'Montserrat', sans-serif;
 }
     .content-subhead i {
         margin-right: 7px;
